@@ -71,7 +71,7 @@ const posts = [
       description:
         'We were asked to create a password generator using user inputs.',
       imageUrl:
-        './Bootstrap.gif',
+        './Password.gif',
 
       readme: { title: 'readme', href: 'https://github.com/ashcookdev/Password' },
       author: {
@@ -110,7 +110,7 @@ const posts = [
       title: 'Work Calender',
       href: 'https://ashcookdev.github.io/Work-Calender/',
       description:
-        'We were asked to create a work calender using vanilla javascript and local storage with moment.js.',
+        'We were asked to create a work calender using Jquery and moment.js with a local storage feature.',
       imageUrl:
         './Workday.gif',
 
