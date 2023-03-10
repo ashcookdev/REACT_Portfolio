@@ -33,14 +33,13 @@ export default function Example() {
                 </div>
                 <div className="hidden sm:ml-6 sm:flex sm:space-x-8 inset-y-0">
                   {/* Current: "border-indigo-500 text-gray-900", Default: "border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700" */}
-                  <Link to = "./home" className="inline-flex  inset-y-0  hover:text-gray-700 items-center border-b-2 border-indigo-500 px-1 pt-1 text-sm font-medium text-gray-900  animate-pulse">  
+                  <Link to = "/" className="inline-flex  inset-y-0  hover:text-gray-700 items-center border-b-2 border-indigo-500 px-1 pt-1 text-sm font-medium text-gray-900  animate-pulse">  
                   
                   Home
                </Link>
                   <Link to = "./about" className="inline-flex  inset-y-0  hover:text-gray-700 items-center border-b-2 border-indigo-500 px-1 pt-1 text-sm font-medium text-gray-900  animate-pulse">  
                   
-                  Contact Me
-               </Link>
+About Me               </Link>
                   <Link to = "./projects" className="inline-flex  inset-y-0  hover:text-gray-700 items-center border-b-2 border-indigo-500 px-1 pt-1 text-sm font-medium text-gray-900  animate-pulse">  
                   
                  Projects
