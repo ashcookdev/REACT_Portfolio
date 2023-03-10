@@ -37,43 +37,39 @@ export default function Example() {
                 </div>
                 <div className="hidden sm:ml-6 sm:flex sm:space-x-8 inset-y-0">
                   {/* Current: "border-indigo-500 text-gray-900", Default: "border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700" */}
-                 <Link to = "/">  <h5
-                    className="inline-flex mr-auto flex-1 hover:text-gray-700 items-center border-b-2 border-indigo-500 px-1 pt-1 text-sm font-medium text-gray-900  animate-pulse"
-                  >
-                    Home
-                  </h5> </Link>
-                  <Link to = "./aboutme">  <h5
-                    className="inline-flex hover:text-gray-700 items-center border-b-2 border-indigo-500 px-1 pt-1 text-sm font-medium text-gray-900  animate-pulse"
-                  >
-                    About Me
-                  </h5> </Link>
-                  <Link to = "./projects">  <h5
-                    className="inline-flex hover:text-gray-700 items-center border-b-2 border-indigo-500 px-1 pt-1 text-sm font-medium text-gray-900 animate-pulse"
-                  >
-                    Projects
-                  </h5> </Link>
-                  <Link to = "./songs">  <h5
-                    className="inline-flex  inset-y-0 hover:text-gray-700 items-center border-b-2 border-indigo-500 px-1 pt-1 text-sm font-medium text-gray-900  animate-pulse"
-                  >
+                  <Link to = "./home" className="inline-flex  inset-y-0  hover:text-gray-700 items-center border-b-2 border-indigo-500 px-1 pt-1 text-sm font-medium text-gray-900  animate-pulse">  
+                  
+                  Home
+               </Link>
+                  <Link to = "./about" className="inline-flex  inset-y-0  hover:text-gray-700 items-center border-b-2 border-indigo-500 px-1 pt-1 text-sm font-medium text-gray-900  animate-pulse">  
+                  
+                  Contact Me
+               </Link>
+                  <Link to = "./projects" className="inline-flex  inset-y-0  hover:text-gray-700 items-center border-b-2 border-indigo-500 px-1 pt-1 text-sm font-medium text-gray-900  animate-pulse">  
+                  
+                 Projects
+               </Link>
+                  <Link to = "./songs" className="inline-flex  inset-y-0  hover:text-gray-700 items-center border-b-2 border-indigo-500 px-1 pt-1 text-sm font-medium text-gray-900  animate-pulse">  
+                  
                     Songs
-                  </h5> </Link>
-                  <Link to = "./contact">  <h5
-                    className="inline-flex  inset-y-0  hover:text-gray-700 items-center border-b-2 border-indigo-500 px-1 pt-1 text-sm font-medium text-gray-900  animate-pulse"
-                  >
+                 </Link>
+                  <Link to = "./contact" className="inline-flex  inset-y-0  hover:text-gray-700 items-center border-b-2 border-indigo-500 px-1 pt-1 text-sm font-medium text-gray-900  animate-pulse">  
+                  
                     Contact Me
-                  </h5> </Link>
-                </div>
-              </div>
-              <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
-                <a 
+                 </Link>
+                  <a href='https://uk.linkedin.com/in/ashley-cook-822974124' className="inline-flex  inset-y-0  hover:text-gray-700 items-center border-b-2 border-indigo-500 px-1 pt-1 text-sm font-medium text-gray-900  animate-pulse"> 
+                    
+                    LinkedIn
+                </a>
+                  <a 
                 href={PDF}
-                  className="rounded-full bg-white p-1 text-gray-400 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
+                className="inline-flex  inset-y-0  hover:text-gray-700 items-center border-b-2 border-indigo-500 px-1 pt-1 text-sm font-medium text-gray-900  animate-pulse"
                 > Resume
                 
                 </a>
-
-            
+                </div>
               </div>
+             
             </div>
           </div>
 
