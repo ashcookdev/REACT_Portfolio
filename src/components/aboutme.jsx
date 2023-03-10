@@ -1,5 +1,4 @@
 
-import { CheckCircleIcon, InformationCircleIcon } from '@heroicons/react/20/solid'
 
 export default function Example() {
   return (

@@ -155,10 +155,7 @@ const posts = [
                     <time dateTime={post.datetime} className="text-gray-500">
                       {post.date}
                     </time>
-                    <a
-                      className="relative z-10 rounded-full bg-gray-50 py-1.5 px-3 font-medium text-gray-600 hover:bg-gray-100"
-                    >
-                    </a>
+                   
                   </div>
                   <div className="group relative">
                     <h3 className="mt-3 text-lg transition ease-in-out delay-150 bg-white hover:-translate-y-1 hover:scale-110 hover:bg-white-500 duration-300 font-semibold leading-6 text-gray-900 group-hover:text-gray-600">

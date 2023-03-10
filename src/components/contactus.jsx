@@ -1,6 +1,6 @@
 
 import { EnvelopeIcon, PhoneIcon } from '@heroicons/react/24/outline'
-import React, { useRef, useState } from 'react';
+import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 
 export const ContactUs = () => {
