@@ -13,7 +13,6 @@ function App() {
 <Hero> </Hero>
 <AboutMe></AboutMe>
 <Resume></Resume>
-<TechStack></TechStack>
 <Projects></Projects>
 <TuneBanner></TuneBanner>
 <Tunes></Tunes>

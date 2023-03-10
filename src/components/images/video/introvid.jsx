@@ -2,9 +2,7 @@
 import React from 'react';
 import { Player } from 'video-react';
 
-export default function Play() {
-  
-
+export default props => {
   return (
     <Player
       playsInline
