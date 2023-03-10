@@ -1,7 +1,6 @@
 import Hero from "./Hero";
 import Projects from "./Projects"
 import AboutMe from "./aboutme";
-import TechStack from "./techstack";
 import Resume from "./resume"
 import {ContactUs} from './contactus'
 import ContactBanner from './contactbanner'
